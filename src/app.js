@@ -38,7 +38,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
         name: 'Shubham Shinde',
-        message: "This is a sample help message. Please help!"
+        message: "Navigate to Weather tab, just enter a location and hit 'Search'!"
     })
 })
 
