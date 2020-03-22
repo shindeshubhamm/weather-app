@@ -43,7 +43,10 @@ p a {
 }
 
 .portrait {
-    width: 250px;
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    border: 1px solid black;
 }
 
 input {
