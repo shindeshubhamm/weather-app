@@ -7,7 +7,7 @@ weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
     const location = search.value
 
-    messageOne.innerHTML = "<b>Loading...</b>"
+    messageOne.innerHTML = '<img class="portrait-2" src="../img/hand-loader.gif" />'
     messageTwo.textContent = ''
 
     fetch('/weather?address=' + encodeURIComponent(location)).then((response) => {

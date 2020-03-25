@@ -49,6 +49,12 @@ p a {
     border: 1px solid black;
 }
 
+.portrait-2 {
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+}
+
 input {
     border: 1px solid #cccccc;
     padding: 8px;
